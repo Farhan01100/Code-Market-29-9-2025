@@ -1,0 +1,26 @@
+[
+  {
+    "id": "APP001",
+    "name": "Calculator App",
+    "type": "webapp",
+    "icon": "fas fa-calculator",
+    "releaseDate": "2025-09-20",
+    "description": "A fully functional calculator with basic arithmetic operations."
+  },
+  {
+    "id": "APP002",
+    "name": "Weather App",
+    "type": "webapp",
+    "icon": "fas fa-cloud-sun",
+    "releaseDate": "2025-09-22",
+    "description": "Weather application with forecasts and interactive maps."
+  },
+  {
+    "id": "MOD001",
+    "name": "Todo List Module",
+    "type": "module",
+    "icon": "fas fa-tasks",
+    "releaseDate": "2025-09-25",
+    "description": "ES6 module for creating interactive todo lists with local storage."
+  }
+]

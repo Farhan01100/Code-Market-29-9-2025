@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeMarket - Free Web Apps & ES6 Modules</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="dashboardNav">
+      <div class="logo">
+        <div class="animated-symbol"></div>
+        <h1>CodeMarket</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#"><i class="fas fa-home"></i> Home</a>
+        <a href="#"><i class="fas fa-code"></i> Web Apps</a>
+        <a href="#"><i class="fas fa-cube"></i> ES6 Modules</a>
+        <a href="#"><i class="fas fa-info-circle"></i> About</a>
+      </div>
+      <button class="theme-toggle"><i class="fas fa-moon"></i><span>Toggle</span></button>
+      <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <!-- Header -->
+    <header class="dashboard-header">
+      <h2>Free Web Apps & ES6 Modules</h2>
+      <p>Discover and download ready-to-use applications and ES6 modules - free!</p>
+    </header>
+
+    <!-- Search -->
+    <section class="search-section">
+      <div class="search-container">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" class="search-input" placeholder="Search by name, description, or ID...">
+      </div>
+      <div class="search-hint">Try "calculator", "weather", or IDs like "APP001"</div>
+    </section>
+
+    <!-- Products -->
+    <div class="products-grid" id="products-grid"></div>
+  </div>
+
+  <!-- Download Modal -->
+  <div class="download-modal">
+    <div class="download-content">
+      <div class="download-header">
+        <div class="download-icon"><i class="fas fa-download"></i></div>
+        <h3 class="download-title">Download Ready</h3>
+        <p class="download-text">Your download will begin shortly.</p>
+      </div>
+      <div class="download-actions">
+        <button class="download-btn-modal">Download Now</button>
+        <button class="close-download">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 CodeMarket. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
